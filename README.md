@@ -55,8 +55,8 @@ main.py                 # CLI entry point using argparse
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pubmed-cli.git
-   cd pubmed-cli
+   git clone https://github.com/idamodhar17/PubMed-Paper-Filterer.git
+   cd PubMed-Paper-Filterer
    ```
 
 2. Install dependencies using Poetry:
@@ -78,17 +78,17 @@ python main.py [OPTIONS] QUERY
 ### Example Commands
 1. Fetch papers with a keyword:
    ```bash
-   python main.py "machine learning"
+   python main.py paralysis
    ```
 
 2. Limit the number of results:
    ```bash
-   python main.py -max_results 10 "cancer research"
+   python main.py 10 cancer research
    ```
 
 3. Enable debug mode:
    ```bash
-   python main.py -d "genomics"
+   python main.py -d genomics
    ```
 
 4. Display help menu:
@@ -117,11 +117,4 @@ poetry install
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Acknowledgments
-- PubMed for providing access to their database.
-- Open-source contributors for their support and inspiration.
 
